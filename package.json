@@ -1,7 +1,7 @@
 {
-  "name": "introduction",
+  "name": "tp-3",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,10 +9,16 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^14.0.0",
     "expo": "~51.0.10",
+    "expo-camera": "~15.0.10",
+    "expo-file-system": "~17.0.1",
+    "expo-router": "~3.5.15",
     "expo-status-bar": "~1.12.1",
+    "fs": "^0.0.1-security",
     "react": "18.2.0",
-    "react-native": "0.74.1"
+    "react-native": "0.74.1",
+    "expo-asset": "~10.0.7"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
